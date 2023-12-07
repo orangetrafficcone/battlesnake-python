@@ -25,7 +25,7 @@ def info() -> typing.Dict:
         "apiversion": "1",
         "author": "trafficcone",  # TODO: Your Battlesnake Username
         "color": "#FFAD03",  # TODO: Choose color
-        "head": "default",  # TODO: Choose head
+        "head": "fang",  # TODO: Choose head
         "tail": "default",  # TODO: Choose tail
     }
 
@@ -94,9 +94,8 @@ def move(game_state: typing.Dict) -> typing.Dict:
                 is_move_safe[move] = False
 
     # TODO: Step 3 - Prevent your Battlesnake from colliding with other Battlesnakes
-    opponents = game_state['board']['snakes']
-    for opponent in opponents:
-        
+    # opponents = game_state['board']['snakes']
+    # for opponent in opponents:
 
     # Are there any safe moves left?
     safe_moves = []
